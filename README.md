@@ -64,5 +64,144 @@
 > Full detail: **[Where this data comes from](https://apievangelist.com/about/where-our-data-comes-from)**
 <!-- API-EVANGELIST-PROVENANCE:END -->
 
-hunta-ai is a company surfaced via the API Evangelist harvest backlog (source: mcp-registry) and added to the network as a stub for full-pipeline profiling.
-- https://hunta.ai/
+Hunta provides an Attestable Memory API for AI agents, enabling per‑tenant isolated agent memory over the MCP (Memory Control Protocol). The Gather service records everything an agent takes in, while the Instinct service ensures data that must never be forgotten is retained. The platform offers a free tier, supports bi‑temporal records, and provides a secure, signed isolation attestation for each memory. Documentation, API reference, pricing, and a quick start guide are available on the website. Hunta’s API is designed for developers building AI agents that need provable, auditable memory.
+
+**Areas:** Company · AI · Memory · API · MCP · Attestable
+
+## hunta-ai on APIs.io
+
+Everything profiled for hunta-ai is published on APIs.io rather than in this repository. Start at the provider page — **[apis.io/providers/hunta-ai/](https://apis.io/providers/hunta-ai/)** — or go straight to one of the APIs or properties below.
+
+### APIs (11)
+
+- [Hunta API](https://apis.io/apis/hunta-ai/hunta-api/) — REST API for Hunta's Attestable Memory service, hosted at mcp.hunta.ai. Uses Bearer JWT authentication; the tenant is bound to the token.
+- [hunta-ai Admin API](https://apis.io/apis/hunta-ai/hunta-ai-admin-api/) — The Admin API from hunta-ai — 7 operation(s) for admin.
+- [hunta-ai Candidates API](https://apis.io/apis/hunta-ai/hunta-ai-candidates-api/) — The Candidates API from hunta-ai — 3 operation(s) for candidates.
+- [hunta-ai Errata API](https://apis.io/apis/hunta-ai/hunta-ai-errata-api/) — The Errata API from hunta-ai — 2 operation(s) for errata.
+- [hunta-ai Export API](https://apis.io/apis/hunta-ai/hunta-ai-export-api/) — The Export API from hunta-ai — 1 operation(s) for export.
+- [hunta-ai Facts API](https://apis.io/apis/hunta-ai/hunta-ai-facts-api/) — The Facts API from hunta-ai — 5 operation(s) for facts.
+- [hunta-ai Memories API](https://apis.io/apis/hunta-ai/hunta-ai-memories-api/) — The Memories API from hunta-ai — 4 operation(s) for memories.
+- [hunta-ai Metrics API](https://apis.io/apis/hunta-ai/hunta-ai-metrics-api/) — The Metrics API from hunta-ai — 1 operation(s) for metrics.
+- [hunta-ai Reckon API](https://apis.io/apis/hunta-ai/hunta-ai-reckon-api/) — The Reckon API from hunta-ai — 4 operation(s) for reckon.
+- [hunta-ai Reconcile API](https://apis.io/apis/hunta-ai/hunta-ai-reconcile-api/) — The Reconcile API from hunta-ai — 1 operation(s) for reconcile.
+- [hunta-ai Whoami API](https://apis.io/apis/hunta-ai/hunta-ai-whoami-api/) — The Whoami API from hunta-ai — 1 operation(s) for whoami.
+
+### Published properties
+
+Each property below is a page on APIs.io carrying the machine-readable artifact and what it says.
+
+#### Agentic access (1)
+
+Which operations an agent can call, which act, and which need a human in the loop.
+
+- [Hunta Ai Agentic Access](https://apis.io/agentic-access/hunta-ai/hunta-ai-agentic-access/)
+
+#### Overlays (1)
+
+OpenAPI overlays, including conversational phrasing for each operation.
+
+- [Hunta Ai Openapi Overlay](https://apis.io/overlays/hunta-ai/hunta-ai-openapi-overlay/)
+
+#### Governance rules (1)
+
+Spectral rulesets for the provider's contracts.
+
+- [hunta-ai API Rules](https://apis.io/rules/hunta-ai/hunta-ai-rules/)
+
+#### Security (3)
+
+Authentication, trust centre, and vulnerability disclosure.
+
+- [Hunta Ai Authentication](https://apis.io/security/hunta-ai/hunta-ai-authentication/)
+- [Hunta Ai Domain Security](https://apis.io/security/hunta-ai/hunta-ai-domain-security/)
+- [Hunta Ai Trust Center](https://apis.io/security/hunta-ai/hunta-ai-trust-center/)
+
+#### OAuth scopes (1)
+
+The permissions the API asks for.
+
+- [Hunta Ai Scopes](https://apis.io/scopes/hunta-ai/hunta-ai-scopes/)
+
+#### Plans and pricing (1)
+
+Published plans, tiers and prices.
+
+- [Hunta Ai Plans Pricing](https://apis.io/plans/hunta-ai/hunta-ai-plans-pricing/)
+
+#### Rate limits (1)
+
+Published request limits.
+
+- [Hunta Ai Rate Limits](https://apis.io/rate-limits/hunta-ai/hunta-ai-rate-limits/)
+
+## Where to find this API
+
+Links to the company's own pages. This repository publishes no copy of their specifications — the canonical document is theirs and lives at the URLs below.
+
+- [Website](https://hunta.ai/)
+- [Documentation](https://docs.hunta.ai/)
+- [Getting started](https://hunta.ai/get-started)
+- [API reference](https://docs.hunta.ai/)
+- [Pricing](https://hunta.ai/pricing)
+- [Support](https://hunta.ai/connect)
+- [Blog](https://hunta.ai/blog)
+- [Security](https://hunta.ai/security)
+- [Compliance](https://hunta.ai/trust)
+- [Terms of service](https://hunta.ai/legal/terms)
+- [Privacy policy](https://hunta.ai/legal/privacy)
+- [GitHub](https://github.com/hunta-ai)
+
+## API Evangelist rating
+
+**Kin Score 59.9** — strong · rubric 0.25.0 · scored 2026-10-30
+
+| Facet | Score |
+|---|---|
+| Discoverability | 66.1 |
+| Contract quality | 41.5 |
+| Contract governance | 57.3 |
+| Operational transparency | 15.8 |
+| Developer ergonomics | 77.9 |
+| Access clarity | 75.8 |
+
+**Agent readiness 50.9** — agent-ready (gated down from agent-native)
+
+| Agent-readiness dimension | Result |
+|---|---|
+| Spec Presence | yes |
+| Agentic Access | unknown |
+| Reversibility Documented | — |
+| MCP Server | documented (partial credit) |
+| Auth Clarity | served (partial credit) |
+| Idempotency | — |
+| Error Semantics | documented (partial credit) |
+| OpenAPI Examples | — |
+| Rate Limit Signal | documented (partial credit) |
+| Event Surface Described | — |
+| Agent Skills | unknown |
+| Well Known Catalog | — |
+| Consent Identity | — |
+| Agent Card | — |
+| Dry Run Mode | — |
+| Delegated Identity | served (partial credit) |
+| Protected Resource Metadata | verified |
+| Dynamic Client Registration | yes |
+| Agentic Commerce | — |
+| Pagination Ratio | na |
+| Operation Distinctiveness | distinct |
+
+**Regulatory alignment 36.4** — Horizontal (data, software, accessibility, platform)
+
+The rubric is published at [github.com/api-evangelist/kin-score](https://github.com/api-evangelist/kin-score). The per-check breakdown behind these numbers — which checks were earned, partial or missed — along with score history and how this provider compares to its peers, is available at [apis.io/providers/hunta-ai/](https://apis.io/providers/hunta-ai/).
+
+## How this profile is made
+
+API Evangelist profiles a company's public API surface the way a developer would find it: the website, developer portal and documentation, the specifications it publishes, its public repositories, and its pricing, status and changelog pages. From that it derives the properties above — contracts split per API, workflows, schemas, collections, governance rules, plans and rate limits — and scores them against the published [Kin Score rubric](https://github.com/api-evangelist/kin-score).
+
+The artifacts are published on [APIs.io](https://apis.io), not in this repository. This repository is the public record for hunta-ai: the place to say something is wrong, missing or out of date, and to ask for a re-score or a removal.
+
+## Open an issue
+
+- **Something about this listing** — a wrong description, a missing API, a stale artifact or a question about the rating: [open an issue on this repository](https://github.com/api-evangelist/hunta-ai/issues/new).
+- **A new API, or one that is not in the catalog yet** — [submit it on APIs.io](https://apis.io/add/).
+- **Anything else** — [the APIs.io inbox](https://github.com/api-search/inbox/issues/new) or [info@apievangelist.com](mailto:info@apievangelist.com).
